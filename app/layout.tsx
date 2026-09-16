@@ -43,8 +43,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${spaceGrotesk.variable} ${jetbrainsMono.variable} ${inter.variable}`}>
-      <body className="bg-void text-body font-display text-sm leading-relaxed overflow-x-hidden">
+    <html
+      lang="en"
+      className={`${spaceGrotesk.variable} ${jetbrainsMono.variable} ${inter.variable}`}
+      suppressHydrationWarning
+    >
+      <body className="bg-void text-body font-display text-sm leading-relaxed overflow-x-hidden" suppressHydrationWarning>
         <div className="grid-overlay" />
         <div className="scanlines" />
         <LocaleProvider>
