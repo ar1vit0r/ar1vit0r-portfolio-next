@@ -1,15 +1,14 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 export function useTypingEffect(text: string) {
   const [typed, setTyped] = useState("");
   const [done, setDone] = useState(false);
-  const startedRef = useRef(false);
 
   useEffect(() => {
-    if (startedRef.current) return;
-    startedRef.current = true;
+    setTyped("");
+    setDone(false);
 
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       setTyped(text);
