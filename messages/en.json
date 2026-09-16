@@ -1,0 +1,32 @@
+{
+  "nav": { "about": "About", "skills": "Skills", "projects": "Projects", "contact": "Contact" },
+  "hero": {
+    "tag": "<ai-ml-engineer/>",
+    "name": "Ari Vítor Lazzarotto",
+    "role": "Helping to make sci-fi real",
+    "status": "System online — Open to work",
+    "projects": "View Projects",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About",
+    "p1": "AI/ML Engineer with hands-on experience building <cyan>production-grade LLM applications</cyan> and CI/CD-integrated ML pipelines. Skilled in prompt engineering, security hardening for AI agents, and MLOps.",
+    "p2": "M.Sc. in Computer Science at UFPel. Currently building local-first AI agents and researching multimodal vision-language models.",
+    "statYears": "Years Coding",
+    "statProjects": "Projects"
+  },
+  "skills": { "title": "Skills" },
+  "projects": { "title": "Projects", "filterAll": "All" },
+  "education": { "title": "Education" },
+  "contact": {
+    "title": "Contact",
+    "text": "Want to collaborate, discuss AI, or just say hello?",
+    "send": "Send Transmission"
+  },
+  "projectDesc": {
+    "openjarvis": "Local-first personal AI agent framework. On-device agents with security guardrails, capability-based RBAC, and PII redaction. Stanford-affiliated open source.",
+    "multimodal": "M.Sc. thesis: detects 7 programming behaviors from screen recordings using Vision-Language Models (Qwen2.5-VL). Evaluation with Cohen's kappa and F1.",
+    "hypsim": "16-bit CPU simulator with 3-pass assembler, macro processor, multi-file linker, and loader. Rust rewrite of SSCH. 68 tests."
+  }
+}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, JetBrains_Mono, Inter } from "next/font/google";
 import Script from "next/script";
+import { LocaleProvider } from "@/providers/LocaleProvider";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -42,7 +43,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${spaceGrotesk.variable} ${jetbrainsMono.variable} ${inter.variable}`}>
       <body className="bg-void text-body font-display text-sm leading-relaxed overflow-x-hidden">
-        {children}
+        <div className="grid-overlay" />
+        <div className="scanlines" />
+        <LocaleProvider>{children}</LocaleProvider>
         <Script
           defer
           data-goatcounter="https://ar1v1t0r.goatcounter.com/count"

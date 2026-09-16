@@ -1,0 +1,32 @@
+{
+  "nav": { "about": "Sobre", "skills": "Skills", "projects": "Projetos", "contact": "Contato" },
+  "hero": {
+    "tag": "<engenheiro-ai-ml/>",
+    "name": "Ari Vítor Lazzarotto",
+    "role": "Ajudando a tornar a ficção científica realidade",
+    "status": "Sistema online — Aberto a oportunidades",
+    "projects": "Ver Projetos",
+    "resume": "Currículo",
+    "contact": "Contato"
+  },
+  "about": {
+    "title": "Sobre",
+    "p1": "Engenheiro de AI/ML com experiência em <cyan>aplicações LLM em produção</cyan> e pipelines ML com CI/CD. Especialista em prompt engineering, segurança de agentes AI e MLOps.",
+    "p2": "M.Sc. em Ciência da Computação na UFPel. Atualmente construindo agentes AI locais e pesquisando modelos vision-language multimodais.",
+    "statYears": "Anos Programando",
+    "statProjects": "Projetos"
+  },
+  "skills": { "title": "Skills" },
+  "projects": { "title": "Projetos", "filterAll": "Todos" },
+  "education": { "title": "Formação" },
+  "contact": {
+    "title": "Contato",
+    "text": "Quer colaborar, discutir AI, ou apenas dizer olá?",
+    "send": "Enviar Transmissão"
+  },
+  "projectDesc": {
+    "openjarvis": "Framework de agentes AI pessoal local-first. Agentes on-device com guardrails de segurança, RBAC baseado em capacidades e redação de PII. Open source afiliado ao Stanford.",
+    "multimodal": "Dissertação de M.Sc.: detecta 7 comportamentos de programação em gravações de tela usando Vision-Language Models (Qwen2.5-VL). Avaliação com Cohen's kappa e F1.",
+    "hypsim": "Simulador de CPU 16-bit com montador de 3 passagens, processador de macros, linker multi-arquivo e loader. Reescrita em Rust do SSCH. 68 testes."
+  }
+}
