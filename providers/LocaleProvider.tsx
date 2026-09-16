@@ -32,7 +32,7 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
 
   return (
     <LocaleToggleContext.Provider value={{ locale, toggle }}>
-      <NextIntlClientProvider locale={locale} messages={messagesByLocale[locale]}>
+      <NextIntlClientProvider locale={locale} messages={messagesByLocale[locale]} timeZone="America/Sao_Paulo">
         {children}
       </NextIntlClientProvider>
     </LocaleToggleContext.Provider>
